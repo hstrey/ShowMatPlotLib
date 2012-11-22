@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F107386715463AFB00400ABD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F107386615463AFB00400ABD /* Cocoa.framework */; };
+		F107387115463AFB00400ABD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F107386F15463AFB00400ABD /* InfoPlist.strings */; };
+		F107387315463AFB00400ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F107387215463AFB00400ABD /* main.m */; };
+		F107387715463AFB00400ABD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F107387515463AFB00400ABD /* Credits.rtf */; };
+		F107387A15463AFB00400ABD /* SMPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F107387915463AFB00400ABD /* SMPLAppDelegate.m */; };
+		F107387D15463AFB00400ABD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F107387B15463AFB00400ABD /* MainMenu.xib */; };
+		F107388515463CE000400ABD /* SMPLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F107388415463CE000400ABD /* SMPLImageView.m */; };
+		F10B3FF71550870F003A3992 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10B3FF61550870F003A3992 /* Python.framework */; };
+		F190E053154A49410001C9FF /* amp.png in Resources */ = {isa = PBXBuildFile; fileRef = F190E052154A49410001C9FF /* amp.png */; };
+		F1910831155AFB9600F367BA /* init.py in Resources */ = {isa = PBXBuildFile; fileRef = F1910830155AFB9600F367BA /* init.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F107386215463AFB00400ABD /* ShowMatPlotLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowMatPlotLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F107386615463AFB00400ABD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F107386915463AFB00400ABD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F107386A15463AFB00400ABD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F107386B15463AFB00400ABD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F107386E15463AFB00400ABD /* ShowMatPlotLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShowMatPlotLib-Info.plist"; sourceTree = "<group>"; };
+		F107387015463AFB00400ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F107387215463AFB00400ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F107387415463AFB00400ABD /* ShowMatPlotLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShowMatPlotLib-Prefix.pch"; sourceTree = "<group>"; };
+		F107387615463AFB00400ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F107387815463AFB00400ABD /* SMPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMPLAppDelegate.h; sourceTree = "<group>"; };
+		F107387915463AFB00400ABD /* SMPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMPLAppDelegate.m; sourceTree = "<group>"; };
+		F107387C15463AFB00400ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F107388315463CE000400ABD /* SMPLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPLImageView.h; sourceTree = "<group>"; };
+		F107388415463CE000400ABD /* SMPLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPLImageView.m; sourceTree = "<group>"; };
+		F10B3FF61550870F003A3992 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		F190E052154A49410001C9FF /* amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amp.png; path = ../../../../../../../../Dropbox/programming/ShowMatPlotLib/ShowMatPlotLib/amp.png; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1910830155AFB9600F367BA /* init.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = init.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F107385F15463AFB00400ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10B3FF71550870F003A3992 /* Python.framework in Frameworks */,
+				F107386715463AFB00400ABD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F107385715463AFA00400ABD = {
+			isa = PBXGroup;
+			children = (
+				F107386C15463AFB00400ABD /* ShowMatPlotLib */,
+				F107386515463AFB00400ABD /* Frameworks */,
+				F107386315463AFB00400ABD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F107386315463AFB00400ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F107386215463AFB00400ABD /* ShowMatPlotLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F107386515463AFB00400ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F10B3FF61550870F003A3992 /* Python.framework */,
+				F107386615463AFB00400ABD /* Cocoa.framework */,
+				F107386815463AFB00400ABD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F107386815463AFB00400ABD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F107386915463AFB00400ABD /* AppKit.framework */,
+				F107386A15463AFB00400ABD /* CoreData.framework */,
+				F107386B15463AFB00400ABD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F107386C15463AFB00400ABD /* ShowMatPlotLib */ = {
+			isa = PBXGroup;
+			children = (
+				F107387815463AFB00400ABD /* SMPLAppDelegate.h */,
+				F107387915463AFB00400ABD /* SMPLAppDelegate.m */,
+				F1910830155AFB9600F367BA /* init.py */,
+				F107388315463CE000400ABD /* SMPLImageView.h */,
+				F190E052154A49410001C9FF /* amp.png */,
+				F107388415463CE000400ABD /* SMPLImageView.m */,
+				F107387B15463AFB00400ABD /* MainMenu.xib */,
+				F107386D15463AFB00400ABD /* Supporting Files */,
+			);
+			path = ShowMatPlotLib;
+			sourceTree = "<group>";
+		};
+		F107386D15463AFB00400ABD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F107386E15463AFB00400ABD /* ShowMatPlotLib-Info.plist */,
+				F107386F15463AFB00400ABD /* InfoPlist.strings */,
+				F107387215463AFB00400ABD /* main.m */,
+				F107387415463AFB00400ABD /* ShowMatPlotLib-Prefix.pch */,
+				F107387515463AFB00400ABD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F107386115463AFB00400ABD /* ShowMatPlotLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F107388015463AFB00400ABD /* Build configuration list for PBXNativeTarget "ShowMatPlotLib" */;
+			buildPhases = (
+				F107385E15463AFB00400ABD /* Sources */,
+				F107385F15463AFB00400ABD /* Frameworks */,
+				F107386015463AFB00400ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowMatPlotLib;
+			productName = ShowMatPlotLib;
+			productReference = F107386215463AFB00400ABD /* ShowMatPlotLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F107385915463AFA00400ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SMPL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Stony Brook University";
+			};
+			buildConfigurationList = F107385C15463AFA00400ABD /* Build configuration list for PBXProject "ShowMatPlotLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F107385715463AFA00400ABD;
+			productRefGroup = F107386315463AFB00400ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F107386115463AFB00400ABD /* ShowMatPlotLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F107386015463AFB00400ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F107387115463AFB00400ABD /* InfoPlist.strings in Resources */,
+				F107387715463AFB00400ABD /* Credits.rtf in Resources */,
+				F107387D15463AFB00400ABD /* MainMenu.xib in Resources */,
+				F190E053154A49410001C9FF /* amp.png in Resources */,
+				F1910831155AFB9600F367BA /* init.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F107385E15463AFB00400ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F107387315463AFB00400ABD /* main.m in Sources */,
+				F107387A15463AFB00400ABD /* SMPLAppDelegate.m in Sources */,
+				F107388515463CE000400ABD /* SMPLImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F107386F15463AFB00400ABD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F107387015463AFB00400ABD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F107387515463AFB00400ABD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F107387615463AFB00400ABD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F107387B15463AFB00400ABD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F107387C15463AFB00400ABD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F107387E15463AFB00400ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /System/Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /System/Library/Frameworks/Python.framework/Versions/2.7/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/**";
+			};
+			name = Debug;
+		};
+		F107387F15463AFB00400ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /System/Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /System/Library/Frameworks/Python.framework/Versions/2.7/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/**";
+			};
+			name = Release;
+		};
+		F107388115463AFB00400ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowMatPlotLib/ShowMatPlotLib-Prefix.pch";
+				INFOPLIST_FILE = "ShowMatPlotLib/ShowMatPlotLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F107388215463AFB00400ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowMatPlotLib/ShowMatPlotLib-Prefix.pch";
+				INFOPLIST_FILE = "ShowMatPlotLib/ShowMatPlotLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F107385C15463AFA00400ABD /* Build configuration list for PBXProject "ShowMatPlotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F107387E15463AFB00400ABD /* Debug */,
+				F107387F15463AFB00400ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F107388015463AFB00400ABD /* Build configuration list for PBXNativeTarget "ShowMatPlotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F107388115463AFB00400ABD /* Debug */,
+				F107388215463AFB00400ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F107385915463AFA00400ABD /* Project object */;
+}
